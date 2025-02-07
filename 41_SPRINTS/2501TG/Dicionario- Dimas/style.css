@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Liter&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* ... (NAVBAR) ... */
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+
+section {
+    margin-bottom: 20px;
+    text-align: left; /
+}
+
+nav {
+  position: fixed;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+}
+
+nav ul li {
+    display: inline;
+  }
+  nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav ul li:first-child a {
+    text-align: left;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    text-decoration: none; 
+    color: #ffffff; 
+    font-family: "Poppins", serif;
+    font-size: 20px;
+  }
+
+  h1 {
+    font-family: "Oswald", serif;
+    background-color: rgba(255, 255, 255, 0);
+    text-align: center;
+  }
+
+
+  /* BACKGROUND*/
+
+  body {
+  background-image: url("https://s3.amazonaws.com/cms.ipressroom.com/173/files/202211/638a99942cfac276d202c0d6_COVID+Image-Getty+Images/COVID+Image-Getty+Images_45343aa6-414b-4f59-bf50-5f71aa7c063d-prv.jpg");
+  background-color: #f0f0f0;
+  background-size: cover; 
+  background-repeat: no-repeat;
+  color: aliceblue;
+  font-size: 20px;
+} 
+
+header, main{
+  opacity: 1; 
+  border-radius: 20px;
+  font-family: "Oswald", serif;
+}
+ nav, main {
+  background-color: rgba(0, 0, 0, 0.3);
+  border: #000000;
+}
+
+footer{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  color: #fff; 
+  padding: 10px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.4);
+}

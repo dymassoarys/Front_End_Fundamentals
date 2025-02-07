@@ -1,0 +1,16 @@
+/* ... (estilos anteriores) ... */
+
+main {
+    padding: 20px;
+    text-align: center; /* Centraliza o texto na página inicial */
+}
+
+/* Estilos específicos para as páginas de letra */
+section {
+    margin-bottom: 20px;
+    text-align: left; /* Alinha o texto à esquerda nas páginas de letra */
+}
+
+nav ul li {
+    display: inline;
+  }
