@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(25, 0, 250);
+}
+
+* {
+    color: black;
+    text-align: center;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.kenykim {
+
+border-radius: 15%;
+border: 6px solid rgb(26, 255, 0);
+
+
+}
+
+
+
+.allpres {
+
+    border-radius: 15%;
+    border: 6px solid gold;
+}
