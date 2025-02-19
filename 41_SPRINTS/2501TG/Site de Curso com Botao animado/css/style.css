@@ -1,0 +1,95 @@
+body{
+    background-image: url(./wallpaperbetter.com_1280x720.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    height: 100vh;
+    color: #fff;
+    font-family:"Courier New", monospace;
+    margin:0;
+  }
+
+
+.typing{
+    font-size: 2em;
+    border-right: 3px solid white;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0;
+    animation: typing 5s steps(40, end) forwards, blink 0.7s infinite;
+  
+  }
+
+.typing-2 {
+    border-right: 3px solid white;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0;
+    color: white;
+    animation: typing-2 5s steps(40, end) forwards, blink 0.7s infinite;
+    animation-delay: 5s;
+}
+
+/* Animação para o primeiro texto */
+@keyframes typing{
+    from{
+      width: 0;
+    }
+    to {
+      width: 790px;
+    }
+  }
+/*Animação para o primeiro texto*/
+@keyframes typing-2 {
+    from {
+        width: 0;
+    }
+    to {
+        width: 425px;
+    }
+}
+
+
+
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}
+
+/*BOTAO*/
+
+.btn {
+  position: relative;
+  padding: 15px 30px;
+  font-size: 18px;
+  color: white;
+  background-color: #349;
+  border: none;
+  border-radius: 15%;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+}
+
+.btn::after {  
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 300%;
+  height: 300%;
+  background: rgba(255, 255, 255, 0.5); 
+  transition: width 1.5s, height 0.5s, opacity 0.5s; 
+  border-radius: 50%;
+  transform: translate(-50%, -50%); 
+}
+
+.btn:active::after {
+  width: 0;
+  height: 0;
+  opacity: 0;
+  transition: 0s; 
+}
