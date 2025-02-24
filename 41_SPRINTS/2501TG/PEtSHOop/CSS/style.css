@@ -1,0 +1,116 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+header {
+    background-color: #f8f8f8;
+    padding: 20px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-left: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+#banner {
+    background-image: url('https://cdn.leonardo.ai/users/35ad7a71-1435-4861-b2b9-190208ed470a/generations/f5535be6-f86e-46fd-9688-65ef669b8f9a/segments/4:4:1/Flux_Dev_Create_a_vibrant_and_welcoming_banner_for_AnimalShop__3.jpeg');
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+#banner h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+
+
+.box-shadoww{
+
+    text-shadow: 2px 2px 4px black;
+
+}
+
+
+/*botao*/
+.btn {
+    display: inline-block;
+    background-color: #f06060;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+section {
+    padding: 50px 0;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.servicos-grid, .produtos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+.servico, .produto {
+    text-align: center;
+}
+
+.servico img, .produto img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.contato-info {
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #f8f8f8;
+    text-align: center;
+    padding: 20px 0;
+}
